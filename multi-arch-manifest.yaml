@@ -1,0 +1,17 @@
+image: andrempo/docker-ffmpeg-rpi:latest
+manifests:
+  - image: andrempo/docker-ffmpeg-rpi:arm32v5
+    platform:
+      architecture: arm
+      os: linux
+      variant: v5
+  - image: andrempo/docker-ffmpeg-rpi:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+  - image: andrempo/docker-ffmpeg-rpi:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
